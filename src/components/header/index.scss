@@ -1,0 +1,21 @@
+@import './../../globalStyle.scss';
+.header {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $secondary;
+  color: white;
+  border-bottom: 1px solid whitesmoke;
+  &__name {
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background-color: $primary;
+    font-family: Roboto, sans-serif;
+  }
+  &__console {
+    padding: 0.5rem 2rem;
+    background-color: $secondary;
+    font-family: Roboto, sans-serif;
+  }
+}
